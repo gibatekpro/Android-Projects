@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">SPANISH IMEI GEN</string>
+    <string name="device_prompt">Select A Device</string>
+    <string-array name="device_arrays">
+        <item>Select Device…</item>
+        <item>BlackBerry 8300</item>
+        <item>BlackBerry 9220</item>
+        <item>BlackBerry 9300</item>
+        <item>BlackBerry 9315</item>
+        <item>BlackBerry 9320</item>
+        <item>BlackBerry 9360</item>
+        <item>BlackBerry 9800</item>
+        <item>BlackBerry 9900</item>
+        <item>BlackBerry 9930</item>
+        <item>BlackBerry Z3</item>
+        <item>BlackBerry Z10</item>
+        <item>Gionee M5 Mini</item>
+        <item>Gionee P5 W</item>
+        <item>Gionee P7 Max</item>
+        <item>HTC 10</item>
+        <item>HTC A9</item>
+        <item>HTC Desire 626</item>
+        <item>HTC Desire 700</item>
+        <item>HTC Desire 728</item>
+        <item>HTC Desire 816</item>
+        <item>HTC Desire 820</item>
+        <item>HTC Desire U</item>
+        <item>HTC Diamond</item>
+        <item>HTC One M7</item>
+        <item>HTC One M8</item>
+        <item>HTC One M9</item>
+        <item>HTC One M9+</item>
+        <item>HTC One X</item>
+        <item>HTC Rhyme S510b</item>
+        <item>HTC Sensation</item>
+        <item>HTC Wildfire S</item>
+        <item>Huawei P8 Max</item>
+        <item>Huawei Y360-U61</item>
+        <item>Infinix Alpha X570</item>
+        <item>Infinix Hot</item>
+        <item>Infinix Hot 2</item>
+        <item>Infinix Hot 3 X554</item>
+        <item>Infinix Hot Note X551</item>
+        <item>Infinix Hot S X521</item>
+        <item>Infinix Note 3 X601</item>
+        <item>Infinix S2 Pro X522</item>
+        <item>Infinix Zero</item>
+        <item>Infinix Zero 4 X555</item>
+        <item>iPhone 4</item>
+        <item>iPhone 5</item>
+        <item>iPhone 5s</item>
+        <item>iPhone 6</item>
+        <item>itel INOTE 1502</item>
+        <item>itel IT 1351</item>
+        <item>itel IT 1355</item>
+        <item>itel IT 1408</item>
+        <item>itel IT 1701</item>
+        <item>itel Prime 2</item>
+        <item>LG G2 F320K</item>
+        <item>LG G3 D855</item>
+        <item>LG G3 VS985</item>
+        <item>LG G4 H812</item>
+        <item>LG G4 H818P</item>
+        <item>LG G5 H830</item>
+        <item>LG Leon H340Y</item>
+        <item>LG Nexus 5 D821</item>
+        <item>LG Optimus L7 P700</item>
+        <item>LG Pro Lite D685</item>
+        <item>LG Stylus 2 K520DY</item>
+        <item>LG V10 H961N</item>
+        <item>Microsoft Lumia 430</item>
+        <item>Microsoft Lumia 525</item>
+        <item>Microsoft Lumia 535</item>
+        <item>Microsoft Lumia 540</item>
+        <item>Microsoft Lumia 650</item>
+        <item>Microsoft Lumia 730</item>
+        <item>myPhone 5300</item>
+        <item>Samsung Galaxy A7 SM-A710Y/DS</item>
+        <item>Samsung Galaxy Core II</item>
+        <item>Samsung Galaxy GP</item>
+        <item>Samsung Galaxy Grand Prime SM-G530F</item>
+        <item>Samsung Galaxy J1</item>
+        <item>Samsung Galaxy J5 Prime SM-G570F</item>
+        <item>Samsung Galaxy J7 SM-j700H/DS</item>
+        <item>Samsung Galaxy Note GT-N7000</item>
+        <item>Samsung Galaxy Note 2 GT-N7100</item>
+        <item>Samsung Galaxy Note 5 SM-N920C</item>
+        <item>Samsung Galaxy S Duos 2 GT-S7582</item>
+        <item>Samsung Galaxy S5 SM-G900F</item>
+        <item>Samsung Galaxy S7 SM-G930F</item>
+        <item>Samsung Galaxy S7 Edge SM-G935F</item>
+        <item>Sony Xperia C</item>
+        <item>Sony Xperia M C2005</item>
+        <item>Sony Xperia Tipo ST21i2</item>
+        <item>Sony Xperia XA Ultra F3213</item>
+        <item>Sony Xperia XZ F8332</item>
+        <item>Sony Xperia Z2 D6503</item>
+        <item>Sony Xperia Z3+</item>
+        <item>Sony Xperia Zultra C6802</item>
+        <item>Tecno C8</item>
+        <item>Tecno C9</item>
+        <item>Tecno J8</item>
+        <item>Tecno L8</item>
+        <item>Tecno M7</item>
+        <item>Tecno Phantom 5</item>
+        <item>Tecno W1</item>
+        <item>Tecno W3</item>
+        <item>Tecno W4</item>
+        <item>Tecno Y3</item>
+        <item>Tecno Y6</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+
+
+    <string name="next">Next</string>
+    <string name="action_exit">ANALIZADOR</string>
+    <string name="app_id">ca-app-pub-1488497497647050~6151476328</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-1488497497647050/8825741124</string>
+    <string name="native_ad_unit_id">ca-app-pub-1488497497647050/4116339924</string>
+    <string name="Banner_ad_unit_id">ca-app-pub-1488497497647050/8965341928</string>
+    <string name="Banner_ad_unit_id2">ca-app-pub-1488497497647050/7789659927</string>
+    <string name="Banner_ad_unit_id3">ca-app-pub-1488497497647050/3262361930</string>
+    <string name="type_here">ESCRIBA AQUI</string>
+    <string name="type_here2">Ingrese IMEI aquí</string>
+    <string name="generate_custom_imei">GENERAR PERSONALIZADA IMEI</string>
+    <string name="generate_specific_imei">GENERAR UN IMEI ESPECIFICO</string>
+    <string name="tutorial">Tutoria</string>
+    <string name="clear">LIMPIAR</string>
+    <string name="analyze">ANALIZADOR</string>
+    <string name="encuentra_mi_imei">ENCUENTRA MI IMEI</string>
+
+
+</resources>

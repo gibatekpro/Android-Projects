@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">String Splitter</string>
+
+    <string-array name="ljk">
+        <item>Apple</item>
+        <item>iPhone 4</item>
+        <item>iOS 4</item>
+        <item>1GHz Cortex-A8 CPU</item>
+        <item>2G Network GSM 850 / 900 / 1800 / 1900 \n\n3G Network HSDPA 850 / 1900 / 2100 \n\nNo 4G \n\nMicro SIM</item>
+        <item>Dimensions 115.2 x 58.6 x 9.3 mm, 137 grams (4.54 x 2.31 x 0.37 inches, 4.83 ounce) \n\nColors White, Black \n\nCover Aluminium</item>
+        <item>3.5 inches, 640 x 960 pixels, 330 pixels per inch (PPI)</item>
+        <item>Primary	5MP, up to 2592 x 1936-pixel pictures camera with LED flash \n\nSecondary 0.3MP up to 640 x 480-pixel pictures</item>
+        <item>No MicroSD \n\nROM 8GB \n\nROM 16GB \n\nROM 32GB \n\nRAM 1GB</item>
+        <item>Wi-Fi 802.11 b/g \n\nBluetooth Version 2.1, A2DP \n\nGPS A-GPS \n\n No USB</item>
+        <item>1420mAh Li-Ion battery</item>
+        <item>Accelerometer, Proximity</item>
+    </string-array>
+
+    <string-array name="lnbj">
+        <item>Tecno</item>
+        <item>W5</item>
+        <item>Android 6.0 Marshmallow</item>
+        <item>1.3GHz quad-core Cortex-A53 CPU</item>
+        <item>2G Network GSM 850/ 900 / 1800 / 1900 \n\n3G Network HSDPA 850 / 900/ 1900 / 2100 \n\n4G Network LTE(1800) / 7(2600) / 20(800) \n\nDual mini SIM</item>
+        <item>Dimensions 153.2 X 76.4 X 7.8 mm \n\nColors Black, Pink \n\nCover Plastic</item>
+        <item>5.5 inches, 720 x 1280 pixels, 267 pixels per inch (PPI)</item>
+        <item>Primary 13MP camera with LED flash \n\nSecondary 5MP, up to 2592 x 1944-pixel pictures, LED flash</item>
+        <item>Card slot MicroSD, up to 32GB \n\nROM 16GB \n\nRAM 1GB</item>
+        <item>Wi-Fi 802.11 b/g, WIFI hotspot \n\nBluetooth Version 4.0 \n\nGPS A-GPS \n\nUSB MicroUSB v2.0</item>
+        <item>3000mAh Li-Ion battery</item>
+        <item>Accelerometer, Proximity,Fingerprint</item>
+    </string-array>
+
+</resources>

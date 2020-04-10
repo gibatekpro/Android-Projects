@@ -1,0 +1,685 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.gibatekpro.myusbotg.MainActivity"
+    android:background="@color/colorBackground">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:fillViewport="false"
+        android:background="@color/colorBackground">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/apple"
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/sn"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="@string/apple"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginStart="3dp"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+                <Button
+                    android:id="@+id/bb"
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/sn"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="@string/blackberry"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginStart="3dp"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+                <Button
+                    android:id="@+id/htc"
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/sn"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="@string/htc"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginStart="3dp"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/huawei"
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/sn"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="@string/huawei"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:layout_marginTop="3dp"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+                <Button
+                    android:id="@+id/infinix"
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/sn"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="@string/infinix"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginStart="3dp"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+                <Button
+                    android:id="@+id/lenovo"
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/sn"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="@string/lenovo"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginStart="3dp"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/lg"
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/sn"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="@string/lg"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:layout_marginTop="3dp"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+
+                <Button
+                    android:id="@+id/samsung"
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/sn"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="@string/samsung"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginStart="3dp"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+
+                <Button
+                    android:id="@+id/tecno"
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/sn"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="@string/Tecno"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginStart="3dp"
+                    style="?android:attr/buttonBarButtonStyle" />
+
+            </LinearLayout>
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                ads:adSize="LARGE_BANNER"
+                ads:adUnitId="@string/my_usb_otg_banner_psd">
+            </com.google.android.gms.ads.AdView>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="110dip"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:freezesText="true"
+                    android:longClickable="true"
+                    android:textColor="#000000"
+                    android:background="@color/colorBackgroundtextview2"
+                    android:textIsSelectable="true"
+                    android:layout_marginTop="3dp"
+                    android:textSize="17sp" />
+
+
+                <TextView
+                    android:id="@+id/named"
+                    android:layout_width="180dip"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:freezesText="true"
+                    android:longClickable="true"
+                    android:textColor="#000000"
+                    android:background="@color/colorBackgroundtextview2"
+                    android:textIsSelectable="true"
+                    android:layout_marginTop="3dp"
+                    android:textSize="17sp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginStart="3dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/model"
+                    android:layout_width="110dip"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:freezesText="true"
+                    android:longClickable="true"
+                    android:textColor="#000000"
+                    android:background="@color/colorBackgroundtextview"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp" />
+
+
+                <TextView
+                    android:id="@+id/modeled"
+                    android:layout_width="180dip"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:freezesText="true"
+                    android:longClickable="true"
+                    android:textColor="#000000"
+                    android:background="@color/colorBackgroundtextview"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginStart="3dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/opsys"
+                    android:layout_width="110dip"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:freezesText="true"
+                    android:longClickable="true"
+                    android:textColor="#000000"
+                    android:background="@color/colorBackgroundtextview2"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp" />
+
+
+                <TextView
+                    android:id="@+id/opsysed"
+                    android:layout_width="180dip"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:freezesText="true"
+                    android:longClickable="true"
+                    android:textColor="#000000"
+                    android:background="@color/colorBackgroundtextview2"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginStart="3dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/processor"
+                    android:layout_width="110dip"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:freezesText="true"
+                    android:longClickable="true"
+                    android:textColor="#000000"
+                    android:background="@color/colorBackgroundtextview"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp" />
+
+
+                <TextView
+                    android:id="@+id/processored"
+                    android:layout_width="180dip"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:freezesText="true"
+                    android:longClickable="true"
+                    android:textColor="#000000"
+                    android:background="@color/colorBackgroundtextview"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginStart="3dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/network"
+                    android:layout_width="110dip"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:freezesText="true"
+                    android:longClickable="true"
+                    android:textColor="#000000"
+                    android:background="@color/colorBackgroundtextview2"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp" />
+
+
+                <TextView
+                    android:id="@+id/networked"
+                    android:layout_width="180dip"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:freezesText="true"
+                    android:longClickable="true"
+                    android:textColor="#000000"
+                    android:background="@color/colorBackgroundtextview2"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginStart="3dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/appearance"
+                    android:layout_width="110dip"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:freezesText="true"
+                    android:longClickable="true"
+                    android:textColor="#000000"
+                    android:background="@color/colorBackgroundtextview"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp" />
+
+
+                <TextView
+                    android:id="@+id/appearanced"
+                    android:layout_width="180dip"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:freezesText="true"
+                    android:longClickable="true"
+                    android:textColor="#000000"
+                    android:background="@color/colorBackgroundtextview"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginStart="3dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/display"
+                    android:layout_width="110dip"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:freezesText="true"
+                    android:longClickable="true"
+                    android:textColor="#000000"
+                    android:background="@color/colorBackgroundtextview2"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp" />
+
+
+                <TextView
+                    android:id="@+id/displayed"
+                    android:layout_width="180dip"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:freezesText="true"
+                    android:longClickable="true"
+                    android:textColor="#000000"
+                    android:background="@color/colorBackgroundtextview2"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginStart="3dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/camera"
+                    android:layout_width="110dip"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:freezesText="true"
+                    android:longClickable="true"
+                    android:textColor="#000000"
+                    android:background="@color/colorBackgroundtextview"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp" />
+
+
+                <TextView
+                    android:id="@+id/cameraed"
+                    android:layout_width="180dip"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:freezesText="true"
+                    android:longClickable="true"
+                    android:textColor="#000000"
+                    android:background="@color/colorBackgroundtextview"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginStart="3dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/memory"
+                    android:layout_width="110dip"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:freezesText="true"
+                    android:longClickable="true"
+                    android:textColor="#000000"
+                    android:background="@color/colorBackgroundtextview2"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp" />
+
+
+                <TextView
+                    android:id="@+id/memoryed"
+                    android:layout_width="180dip"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:freezesText="true"
+                    android:longClickable="true"
+                    android:textColor="#000000"
+                    android:background="@color/colorBackgroundtextview2"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginStart="3dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/con_sensor"
+                    android:layout_width="110dip"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:freezesText="true"
+                    android:longClickable="true"
+                    android:textColor="#000000"
+                    android:background="@color/colorBackgroundtextview"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp" />
+
+
+                <TextView
+                    android:id="@+id/con_sensored"
+                    android:layout_width="180dip"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:freezesText="true"
+                    android:longClickable="true"
+                    android:textColor="#000000"
+                    android:background="@color/colorBackgroundtextview"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginStart="3dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/battery"
+                    android:layout_width="110dip"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:freezesText="true"
+                    android:longClickable="true"
+                    android:textColor="#000000"
+                    android:background="@color/colorBackgroundtextview2"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp" />
+
+
+                <TextView
+                    android:id="@+id/batteryed"
+                    android:layout_width="180dip"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:freezesText="true"
+                    android:longClickable="true"
+                    android:textColor="#000000"
+                    android:background="@color/colorBackgroundtextview2"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginStart="3dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/other"
+                    android:layout_width="110dip"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:freezesText="true"
+                    android:longClickable="true"
+                    android:textColor="#000000"
+                    android:background="@color/colorBackgroundtextview"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp" />
+
+
+                <TextView
+                    android:id="@+id/othered"
+                    android:layout_width="180dip"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:freezesText="true"
+                    android:longClickable="true"
+                    android:textColor="#000000"
+                    android:background="@color/colorBackgroundtextview"
+                    android:textIsSelectable="true"
+                    android:textSize="17sp"
+                    android:layout_marginBottom="100dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginStart="3dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</RelativeLayout>

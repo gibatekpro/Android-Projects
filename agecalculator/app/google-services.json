@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "904352677244",
+    "firebase_url": "https://collabo-50a8e.firebaseio.com",
+    "project_id": "collabo-50a8e",
+    "storage_bucket": "collabo-50a8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904352677244:android:941ce3bc343ea357",
+        "android_client_info": {
+          "package_name": "com.gibatekpro.sudokuplusplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904352677244-ni8rdlu3fjjqeoekrtn88satn8dehrj2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-TAM2OwE-eyxq_Uyvsu04fC-0q8LIuzA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904352677244:android:ff798617f550569e",
+        "android_client_info": {
+          "package_name": "com.gibatekpro.sudokusolverandcreator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904352677244-ni8rdlu3fjjqeoekrtn88satn8dehrj2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-TAM2OwE-eyxq_Uyvsu04fC-0q8LIuzA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904352677244:android:23206aeb9a4a5d10",
+        "android_client_info": {
+          "package_name": "com.gibatekpro.nairalandultimate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904352677244-ni8rdlu3fjjqeoekrtn88satn8dehrj2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-TAM2OwE-eyxq_Uyvsu04fC-0q8LIuzA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904352677244:android:4383667b7e5c79e3",
+        "android_client_info": {
+          "package_name": "com.gibatekpro.agecalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904352677244-ni8rdlu3fjjqeoekrtn88satn8dehrj2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-TAM2OwE-eyxq_Uyvsu04fC-0q8LIuzA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

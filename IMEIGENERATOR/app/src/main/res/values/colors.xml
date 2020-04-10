@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">	#2957C6</color>
+    <color name="colorPrimaryDark">#1C3AAA</color>
+    <color name="colorAccent">#F9A825</color>
+    <color name="colorTabHint">#FFFFA1</color>
+    <color name="selectorColor">#272932</color>
+    <color name="blackColor">#222222</color>
+    <color name="white">#ffffff</color>
+    <color name="white2">#ffffff</color>
+    <color name="red">#D10000</color>
+    <color name="colorBackgroundtextview">#BBDEFB</color>
+    <color name="colorBackgroundtextview2">#82B1FF</color>
+    <color name="colorBackground">#E3F2FD</color>
+    <color name="help6">#0ad000</color>
+    <color name="help7">#D013da</color>
+    <color name="help8">#000B9A</color>
+    <color name="shadow">#D3D3D3</color>
+    <color name="language_color">#757575</color>
+    <color name="gsignbutton">#1a73e8</color>
+
+    <!--500     #2196F3-->
+</resources>

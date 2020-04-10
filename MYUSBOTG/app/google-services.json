@@ -1,0 +1,228 @@
+{
+  "project_info": {
+    "project_number": "895299552366",
+    "firebase_url": "https://gibatekpro-1f8c7.firebaseio.com",
+    "project_id": "gibatekpro-1f8c7",
+    "storage_bucket": "gibatekpro-1f8c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895299552366:android:e598e67fa78365b4",
+        "android_client_info": {
+          "package_name": "com.gibatekpro.imeigenerator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895299552366-frbm7ecr69kcllrh57opj3b8ei2ogksg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSaf4YkSzSNjorF-a9YBFZiLp5oU7ZleY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895299552366:android:0bf254ed925e392c",
+        "android_client_info": {
+          "package_name": "com.gibatekpro.spanishimeigen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895299552366-frbm7ecr69kcllrh57opj3b8ei2ogksg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSaf4YkSzSNjorF-a9YBFZiLp5oU7ZleY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895299552366:android:3d9fd5bd7e04fae5",
+        "android_client_info": {
+          "package_name": "com.gibatekpro.imeiinfo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895299552366-frbm7ecr69kcllrh57opj3b8ei2ogksg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSaf4YkSzSNjorF-a9YBFZiLp5oU7ZleY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895299552366:android:f179c3efa72ff8d0",
+        "android_client_info": {
+          "package_name": "com.gibatekpro.photoorganizer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895299552366-frbm7ecr69kcllrh57opj3b8ei2ogksg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSaf4YkSzSNjorF-a9YBFZiLp5oU7ZleY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895299552366:android:74d94c18635da986",
+        "android_client_info": {
+          "package_name": "com.gibatekpro.sudoku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895299552366-frbm7ecr69kcllrh57opj3b8ei2ogksg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSaf4YkSzSNjorF-a9YBFZiLp5oU7ZleY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895299552366:android:0d7e254f1fe2cd79",
+        "android_client_info": {
+          "package_name": "com.gibatekpro.imeimaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895299552366-frbm7ecr69kcllrh57opj3b8ei2ogksg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSaf4YkSzSNjorF-a9YBFZiLp5oU7ZleY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895299552366:android:04dbff60a23bdb9e",
+        "android_client_info": {
+          "package_name": "com.gibatekpro.myusbotg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895299552366-frbm7ecr69kcllrh57opj3b8ei2ogksg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSaf4YkSzSNjorF-a9YBFZiLp5oU7ZleY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

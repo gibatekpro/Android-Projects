@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/account_settings">
+        <menu>
+            <item
+                android:id="@+id/nav_displayname"
+                android:icon="@drawable/ic_create_black_24dp"
+                android:title="@string/update_username" />
+            <item
+                android:id="@+id/nav_displaypic"
+                android:icon="@drawable/ic_menu_face_black_24dp"
+                android:title="@string/update_profile_pic" />
+            <item
+                android:id="@+id/nav_change_pass"
+                android:icon="@drawable/ic_vpn_key_black_24dp"
+                android:title="@string/reset_password" />
+            <item
+                android:id="@+id/nav_create_account"
+                android:icon="@drawable/ic_menu_create_account_circle_black_24dp"
+                android:title="@string/create_account" />
+            <item
+                android:id="@+id/nav_signin"
+                android:icon="@drawable/ic_menu_exit_to_app_black_24dp"
+                android:title="@string/sign_in" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_block_black_24dp"
+                android:title="@string/sign_out" />
+        </menu>
+    </item>
+
+    <item android:title="@string/support_us">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/share" />
+            <item
+                android:id="@+id/nav_rate_app"
+                android:icon="@drawable/ic_grade_black_24dp"
+                android:title="@string/rate_app" />
+        </menu>
+    </item>
+
+</menu>

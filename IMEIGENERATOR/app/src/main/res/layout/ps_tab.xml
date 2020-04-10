@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/phones_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/compare"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/phones_recyclerview"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/button_style"
+        android:padding="10dp"
+        android:text="@string/compare_devices"
+        android:textColor="@android:color/white"
+        android:textSize="12sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/specs_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/back_lay"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:padding="10dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/models_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/back_lay"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/back_lay"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_above="@+id/demacator"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/button_style"
+        android:drawableStart="@drawable/ic_arrow_back_yello_14dp"
+        android:drawableLeft="@drawable/ic_arrow_back_yello_14dp"
+        android:padding="10dp"
+        android:text="@string/back"
+        android:textColor="@android:color/white"
+        android:textSize="12sp" />
+
+
+
+    <TextView
+        android:id="@+id/demacator"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_above="@+id/adLay"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/colorAccent" />
+
+    <LinearLayout
+        android:id="@+id/adLay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/psadView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:adSize="LARGE_BANNER"
+            app:adUnitId="ca-app-pub-1488497497647050/1496975120" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

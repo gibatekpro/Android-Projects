@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--	This file is auto-generated DO NOT insert new strings here manually!!!
+		Just insert the string value in the respective widget text within the layout file, this value will then be automatically added to this file with the correct reference	
+-->
+<resources>
+    <string name="content_device_details_manufacturerNameTextView_text" />
+    <string name="content_device_details_deviceNameTextView_text" />
+    <string name="content_device_details_deviceTypeTextView_text" />
+    <string name="content_device_details_compositeTextView_text" />
+    <string name="content_device_details_productIdTextView_text" />
+    <string name="content_device_details_deviceIdTextView_text" />
+    <string name="content_device_details_vendorIdTextView_text" />
+    <string name="content_device_details_versionTextView_text" />
+    <string name="content_device_details_successfulConnectionsTextView_text">N/A</string>
+    <string name="content_device_details_successfulDisconnectionsTextView_text">N/A</string>
+    <string name="content_device_details_totalInEndpointsTextView_text">N/A</string>
+    <string name="content_device_details_totalOutEndpointsTextView_text">N/A</string>
+    <string name="content_device_details_maxPacketSizeTextView_text">N/A</string>
+</resources>

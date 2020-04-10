@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Sudoku Creator and Solver</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+    <string name="start_level">Level 1</string>
+    <string name="next_level">Next Level</string>
+    <!-- -
+        This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="salt">"mpmJskrtpvaBDMwR/Td35TRJYdBQC2D2l/P6rOHs7gZ/o6PO4uV8kAbIQ9hGYtXtEK8S73pJf47pUkYUJKD1srz0FNQhSFV3U1FjQNH8+wnNvHCDcqUgCSkGkJfGPyR4MK06ZRUkl5MizfIH4fL0Stww9VQkUeV0wHDgEOyB6Bw="</string>
+    <string-array name="difficulty">
+        <item>Select Difficulty…</item>
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+        <item>Very Hard</item>
+    </string-array>
+
+    <string name="sign">"SGGpWPdJLnu8MqITiEgkbg==:+McHlV1lmJcVYHIEzOGE8VB+YyJpnA247zYC/Tz5u7A=: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"</string>
+    <string name="banner_ad_unit_id">ca-app-pub-1488497497647050/4970951127</string>
+
+</resources>

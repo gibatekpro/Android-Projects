@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.devappliance.devapplibrary">
+
+    <application>
+        <!--<provider-->
+        <!--android:name="com.devapp.devapplibrary.provider.CustomFileProvider"-->
+        <!--android:authorities="com.devapp.devapplibrary.provider"-->
+        <!--android:exported="false"-->
+        <!--android:grantUriPermissions="true">-->
+        <!--<meta-data-->
+        <!--android:name="android.support.FILE_PROVIDER_PATHS"-->
+        <!--android:resource="@xml/provider_paths" />-->
+        <!--</provider>-->
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#D32F2F</color>
+    <color name="colorAccent">#4f7fe0</color>
+    <color name="selectorColor">#272932</color>
+    <color name="red">#D10000</color>
+    <color name="blackColor">#222222</color>
+    <color name="shadow">#D3D3D3</color>
+    <color name="colorTabHint">#F44336</color>
+    <color name="white">#ffffff</color>
+    <color name="white2">#ffffff</color>
+</resources>

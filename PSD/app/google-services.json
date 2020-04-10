@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "283065796760",
+    "firebase_url": "https://phone-specs-38702.firebaseio.com",
+    "project_id": "phone-specs-38702",
+    "storage_bucket": "phone-specs-38702.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283065796760:android:906bf071178074b2",
+        "android_client_info": {
+          "package_name": "com.gibatekpro.psd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283065796760-pc8flnb9ujl6vlb90qa1rnkdeunp9lg5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxuXfBTXWZ31AGOsTLofJTxQfIEO1ndHU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

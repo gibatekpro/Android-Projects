@@ -1,0 +1,321 @@
+<resources>
+    <string name="app_name">IMEI Generator</string>
+    <string name="generate_custom_imei">GENERATE CUSTOM IMEI</string>
+    <string name="albanian">Albanian</string>
+    <string name="amharic">Amharic</string>
+    <string name="arabic">Arabic</string>
+    <string name="azerbaijani">Azerbaijani</string>
+    <string name="belarusian">Belarusian</string>
+    <string name="bengali">Bengali</string>
+    <string name="bosnian">Bosnian</string>
+    <string name="bulgarian">Bulgarian</string>
+    <string name="burmese">Burmese</string>
+    <string name="chinese">Chinese</string>
+    <string name="croatian">Croatian</string>
+    <string name="czech">Czech</string>
+    <string name="danish">Danish</string>
+    <string name="dutch">Dutch</string>
+    <string name="english">English</string>
+    <string name="estonian">Estonian</string>
+    <string name="filipino">Filipino</string>
+    <string name="finnish">Finnish</string>
+    <string name="french">French</string>
+    <string name="georgian">Georgian</string>
+    <string name="german">German</string>
+    <string name="greek">Greek</string>
+    <string name="hebrew">Hebrew</string>
+    <string name="hindi">Hindi</string>
+    <string name="hungarian">Hungarian</string>
+    <string name="icelandic">Icelandic</string>
+    <string name="indonesian">Indonesian</string>
+    <string name="italian">Italian</string>
+    <string name="japanese">Japanese</string>
+    <string name="kazakh">Kazakh</string>
+    <string name="korean">Korean</string>
+    <string name="lithuanian">Lithuanian</string>
+    <string name="luxembourgish">Luxembourgish</string>
+    <string name="macedonian">Macedonian</string>
+    <string name="malagasy">Malagasy</string>
+    <string name="malay">Malay</string>
+    <string name="mongolian">Mongolian</string>
+    <string name="norwegian">Norwegian</string>
+    <string name="polish">Polish</string>
+    <string name="portuguese">Portuguese</string>
+    <string name="romanian">Romanian</string>
+    <string name="russian">Russian</string>
+    <string name="slovak">Slovak</string>
+    <string name="slovenian">Slovenian</string>
+    <string name="spanish">Spanish</string>
+    <string name="swedish">Swedish</string>
+    <string name="thai">Thai</string>
+    <string name="turkish">Turkish</string>
+    <string name="ukrainian">Ukrainian</string>
+    <string name="urdu">Urdu</string>
+    <string name="vietnamese">Vietnamese</string>
+
+
+    <!--New IMEI INFO Strings-->
+    <string name="select_language">Select Language</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="rate_tut">Support the developer</string>
+    <string name="rate_tuts">Kindly give a good rating to support developer of this app</string>
+    <string name="if_you_enjoy_using">If you enjoy using</string>
+    <string name="please_take_a_moment_to_rate_the_app">, please take a moment to rate the app.</string>
+    <string name="thanks_for_your_support">Thanks for your support</string>
+    <string name="change_tuts">Change Language</string>
+    <string name="changes_tut">Select any language of your choice by clicking this icon</string>
+    <string name="learn_tut">Learn How To Use</string>
+    <string name="learn_tuts">Click this item when in each page or tab for instructions on how to use the functions</string>
+    <string name="manymore_tut">Many More Options</string>
+    <string name="manymore_tuto">Click this icon to get many more options like MTK Engineering and Fetch My IMEI</string>
+    <string name="not_now">Not now</string>
+    <string name="no">No</string>
+    <string name="submit_feedback">Submit Feedback</string>
+    <string name="later">Later</string>
+    <string name="tell_us_where_to_improve">Tell us how to improve</string>
+    <string name="submit">Submit</string>
+    <string name="cancel"><u>Cancel</u></string>
+    <string name="support">Support</string>
+    <string name="encourage_the_developer">Encourage \n The Developer</string>
+    <string name="so_much_work_was_done_to_provide_you_with_this_app">So much work was done to provide you with this app</string>
+    <string name="kindly_rate_the_app_to_support_the_developer_your_feedback_is_important">Kindly rate the app to support the developer.\n Your feedback is important.</string>
+    <string name="analyze_any_imei">Analyze any IMEI</string>
+    <string name="analyze_any_imei_tut">Type the IMEI you want to analyze and click this button. We will tell you if the IMEI is correct or not correct</string>
+    <string name="spec_imeis">Generate IMEI for Specific Devices</string>
+    <string name="spec_imei_tuts">Generate IMEI for specific phones by selecting the phone from the list</string>
+    <string name="back">Back</string>
+    <string name="model">Model</string>
+    <string name="select_a_phone">Select A Phone</string>
+    <string name="imei_selected">IMEI Selected: \n</string>
+    <string name="clear">Delete</string>
+    <string name="generatecust_tut">Generate custom IMEI by typing your desired digits and click this button</string>
+    <string name="copy_all">Copy All</string>
+    <string name="type_digits_here">Type digits here</string>
+    <string name="custom_imei">Custom IMEI</string>
+    <string name="phone_imei">Phone IMEI</string>
+    <string name="device_imei">Device IMEI</string>
+    <string name="analyzer">Analyzer</string>
+    <string name="phone_specs">Phone Specs</string>
+    <string name="rate_app">Rate App</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="tools">Tools</string>
+    <string name="language">Change Language</string>
+    <string name="help">Help</string>
+    <string name="share">Share</string>
+    <string name="more_apps_on_playstore">More Apps On Playstore</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="generate">generate</string>
+    <string name="analyze">analyze</string>
+    <string name="specs">Specs</string>
+    <string name="specs_value">Specs Value</string>
+    <string name="Input_14_or_15_digits">Input 14 or 15 digits</string>
+    <string name="imei_is_correct">IMEI is correct</string>
+    <string name="imei_is_not_correct">IMEI is not correct</string>
+    <string name="imei_is_not_complete">IMEI is not complete</string>
+    <string name="my_imei">My IMEI</string>
+    <string name="imei_1">IMEI 1:</string>
+    <string name="imei_2">IMEI 2:</string>
+    <string name="copy">copy</string>
+
+
+
+    <!--[START]  Droid Appliance -->
+    <string name="forgot_password"><u>Forgot password?</u></string>
+    <string name="sign_in_instead"><u>Sign in instead</u></string>
+    <string name="learn_more"><u>Learn more</u></string>
+    <string name="create_account"><u>Create account</u></string>
+    <string name="forgot_email"><u>Forgot email?</u></string>
+    <string name="return_to_sign_in"><u>Return to sign in</u></string>
+    <string name="reset_password">Reset Password</string>
+    <string name="sign_out">Sign out</string>
+    <string name="sign_in">Sign in</string>
+    <string name="logo">Logo</string>
+    <string name="create_your_account">Create your Account</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="learn_more_about_droid_appliance_and_the_benefits_of_becoming_a_member">Learn more about droid appliance and the benefits of becoming a member.</string>
+    <string name="next">Next</string>
+    <string name="use_your_email_address">Use your Email Address</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="acount_recovery">Acount recovery</string>
+    <string name="a_link_has_been_sent_to_your_email_follow_the_link_to_recover_your_account">A link has been sent to your email. Follow the link to recover your account</string>
+
+    <!--[END]  Droid Appliance -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--[START]  Devices for specific IMEIs-->
+    <string-array name="device_arrays">
+        <item>BlackBerry Z3</item>
+        <item>BlackBerry Z10</item>
+        <item>Gionee A1</item>
+        <item>Gionee F103 Pro</item>
+        <item>Gionee F205</item>
+        <item>Gionee M5 Mini</item>
+        <item>Gionee P5 W</item>
+        <item>Gionee P7 Max</item>
+        <item>Gionee S10</item>
+        <item>Gionee S11 Lite</item>
+        <item>Google Pixel 3</item>
+        <item>HTC 10</item>
+        <item>HTC A9</item>
+        <item>HTC Desire 626</item>
+        <item>HTC Desire 700</item>
+        <item>HTC Desire 728</item>
+        <item>HTC Desire 816</item>
+        <item>HTC Desire 820</item>
+        <item>HTC Desire U</item>
+        <item>HTC Diamond</item>
+        <item>HTC One M7</item>
+        <item>HTC One M8</item>
+        <item>HTC One M9</item>
+        <item>HTC One M9+</item>
+        <item>HTC One X</item>
+        <item>HTC Rhyme S510b</item>
+        <item>HTC Sensation</item>
+        <item>HTC U12+</item>
+        <item>HTC Wildfire S</item>
+        <item>Huawei Ascend Y210</item>
+        <item>Huawei Mate 10 Lite</item>
+        <item>Huawei P10</item>
+        <item>Huawei P8 Max</item>
+        <item>Huawei Y360-U61</item>
+        <item>Huawei Y6 2018 (ATU-LX3)</item>
+        <item>Huawei Y7</item>
+        <item>Infinix Alpha X570</item>
+        <item>Infinix Hot</item>
+        <item>Infinix Hot 2</item>
+        <item>Infinix Hot 3 X554</item>
+        <item>Infinix Hot 5 Lite X559</item>
+        <item>Infinix Hot Note X551</item>
+        <item>Infinix Hot S X521</item>
+        <item>Infinix Note 3 X601</item>
+        <item>Infinix Note 4 X572</item>
+        <item>Infinix S2 Pro X522</item>
+        <item>Infinix S5</item>
+        <item>Infinix Zero</item>
+        <item>Infinix Zero 4 X555</item>
+        <item>iPhone 4</item>
+        <item>iPhone 5</item>
+        <item>iPhone 5s</item>
+        <item>iPhone 6</item>
+        <item>iPhone 6+</item>
+        <item>iPhone 6S+</item>
+        <item>iPhone 8</item>
+        <item>iPhone X</item>
+        <item>iPhone XS</item>
+        <item>itel INOTE 1502</item>
+        <item>itel IT 1351</item>
+        <item>itel IT 1355</item>
+        <item>itel IT 1408</item>
+        <item>itel IT 1701</item>
+        <item>itel Prime 2</item>
+        <item>LG G2 F320K</item>
+        <item>LG G3 D855</item>
+        <item>LG G3 VS985</item>
+        <item>LG G4 H812</item>
+        <item>LG G4 H818P</item>
+        <item>LG G5 H830</item>
+        <item>LG Leon H340Y</item>
+        <item>LG Nexus 5 D821</item>
+        <item>LG Optimus L7 P700</item>
+        <item>LG Pro Lite D685</item>
+        <item>LG Stylus 2 K520DY</item>
+        <item>LG V10 H961N</item>
+        <item>Microsoft Lumia 430</item>
+        <item>Microsoft Lumia 525</item>
+        <item>Microsoft Lumia 535</item>
+        <item>Microsoft Lumia 540</item>
+        <item>Microsoft Lumia 650</item>
+        <item>Microsoft Lumia 730</item>
+        <item>myPhone 5300</item>
+        <item>Samsung Galaxy A7 SM-A710Y/DS</item>
+        <item>Samsung Galaxy Core II</item>
+        <item>Samsung Galaxy GP</item>
+        <item>Samsung Galaxy Grand Prime SM-G530F</item>
+        <item>Samsung Galaxy J1</item>
+        <item>Samsung Galaxy J5 Prime SM-G570F</item>
+        <item>Samsung Galaxy J7 SM-j700H/DS</item>
+        <item>Samsung Galaxy Note GT-N7000</item>
+        <item>Samsung Galaxy Note 2 GT-N7100</item>
+        <item>Samsung Galaxy Note 5 SM-N920C</item>
+        <item>Samsung Galaxy Note 10</item>
+        <item>Samsung Galaxy Note 10 SM-N970F</item>
+        <item>Samsung Galaxy S Duos 2 GT-S7582</item>
+        <item>Samsung Galaxy S5 SM-G900F</item>
+        <item>Samsung Galaxy S7 SM-G930F</item>
+        <item>Samsung Galaxy S7 Edge SM-G935F</item>
+        <item>Samsung Galaxy S8+ SM-G955FD</item>
+        <item>Samsung Galaxy S9</item>
+        <item>Samsung Galaxy S10</item>
+        <item>Sony Xperia C</item>
+        <item>Sony Xperia M C2005</item>
+        <item>Sony Xperia Tipo ST21i2</item>
+        <item>Sony Xperia XA Ultra F3213</item>
+        <item>Sony Xperia XZ F8332</item>
+        <item>Sony Xperia Z2 D6503</item>
+        <item>Sony Xperia Z3+</item>
+        <item>Sony Xperia Zultra C6802</item>
+        <item>Tecno C8</item>
+        <item>Tecno C9</item>
+        <item>Tecno CX</item>
+        <item>Tecno J8</item>
+        <item>Tecno L8</item>
+        <item>Tecno M7</item>
+        <item>Tecno Phantom 5</item>
+        <item>Tecno W1</item>
+        <item>Tecno W3</item>
+        <item>Tecno W4</item>
+        <item>Tecno Y3</item>
+        <item>Tecno Y6</item>
+        <item>Xiaomi Mi 9T Pro</item>
+        <item>Xiaomi Mi A1</item>
+        <item>Xiaomi Mi A2</item>
+        <item>Xiaomi Mi A3</item>
+        <item>Xiaomi Mi Mix 2</item>
+        <item>Xiaomi Redmi 4A</item>
+        <item>Xiaomi Redmi 5A</item>
+        <item>Xiaomi Redmi S2</item>
+    </string-array>
+    <!--[END]  Devices for specific IMEIs-->
+
+    <!--[START]  Analysis Array-->
+    <string-array name="imeiAnalysis">
+        <!-- IMEI Analysis -->
+        <item>Correct IMEI</item>
+        <item>Type Allocation Code</item>
+        <item>Reporting Body Identifier</item>
+        <item>Mobile Equipment Type</item>
+        <item>Final Assembly Code</item>
+        <item>Serial Number</item>
+        <item>Luhn</item>
+    </string-array>
+    <!--[END]  Analysis Array-->
+
+    <!--[START]  Languages-->
+    <string-array name="language">
+        <item>@string/english</item>
+        <item>@string/french</item>
+        <item>@string/italian</item>
+        <item>@string/russian</item>
+        <item>@string/spanish</item>
+        <item>@string/turkish</item>
+    </string-array>
+    <!--[END]  Languages-->
+
+
+</resources>

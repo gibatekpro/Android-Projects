@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".ui.MainActivity">
+    <item android:id="@+id/item_view" android:title="View"
+        android:orderInCategory="100" app:showAsAction="ifRoom"/>
+    <item android:id="@+id/item_share" android:title="Share"
+        android:orderInCategory="100" app:showAsAction="never"/>
+    <item android:id="@+id/item_edit" android:title="Edit"
+        android:orderInCategory="100" app:showAsAction="ifRoom"/>
+    <item android:id="@+id/item_delete" android:title="Delete"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
