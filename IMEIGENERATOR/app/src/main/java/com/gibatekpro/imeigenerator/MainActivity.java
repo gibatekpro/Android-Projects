@@ -421,6 +421,112 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
 
+    @SuppressLint({"MissingPermission", "HardwareIds"})
+    public void showimei() {
+
+        TelephonyManager tm = (TelephonyManager) getSystemService(TELEPHONY_SERVICE);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            imeiSIM1 = tm.getImei(0);
+            imeiSIM2 = tm.getImei(1);
+            DeviceName = getDeviceName();
+        } else {
+            try {
+                imeiSIM1 = tm.getDeviceId();
+                imeiSIM2 = tm.getDeviceId();
+                DeviceName = getDeviceName();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+        }
+
+        AlertDialog.Builder mBuilder = new AlertDialog.Builder(MainActivity.this);
+        View mView = MainActivity.this.getLayoutInflater().inflate(R.layout.device_info_layout, null);
+        imei1 = mView.findViewById(R.id.imei1);
+        imei1_tag = mView.findViewById(R.id.imei1_tag);
+        imei2 = mView.findViewById(R.id.imei2);
+        imei2_tag = mView.findViewById(R.id.imei2_tag);
+        copy1 = mView.findViewById(R.id.copy1);
+        copy2 = mView.findViewById(R.id.copy2);
+        device_name = mView.findViewById(R.id.device_name);
+
+        device_name.setText(DeviceName);
+
+        if (imeiSIM1 != null) {
+
+            imei1_tag.setVisibility(View.VISIBLE);
+            imei1.setVisibility(View.VISIBLE);
+            copy1.setVisibility(View.VISIBLE);
+
+            imei1_tag.setText(getResources().getString(R.string.imei_1));
+            imei1.setText(imeiSIM1);
+
+            copy1.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    ClipData clipData = ClipData.newPlainText("imei 1", imeiSIM1);
+                    clipboardManager.setPrimaryClip(clipData);
+
+                    Snackbar snackbar = Snackbar
+                            .make(findViewById(R.id.main_activity), getString(R.string.copied_to_clipboard), Snackbar.LENGTH_SHORT);
+                    snackbar.show();
+                }
+            });
+        } else {
+            imei1_tag.setVisibility(View.GONE);
+            imei1.setVisibility(View.GONE);
+            copy1.setVisibility(View.GONE);
+        }
+
+        if (imeiSIM2 != null) {
+
+            imei2_tag.setVisibility(View.VISIBLE);
+            imei2.setVisibility(View.VISIBLE);
+            copy2.setVisibility(View.VISIBLE);
+
+            imei2_tag.setText(getResources().getString(R.string.imei_2));
+            imei2.setText(imeiSIM2);
+
+            copy2.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    ClipData clipData = ClipData.newPlainText("imei 2", imeiSIM2);
+                    clipboardManager.setPrimaryClip(clipData);
+
+                    Snackbar snackbar = Snackbar
+                            .make(findViewById(R.id.main_activity), getString(R.string.copied_to_clipboard), Snackbar.LENGTH_SHORT);
+                    snackbar.show();
+                }
+            });
+        } else {
+            imei2_tag.setVisibility(View.GONE);
+            imei2.setVisibility(View.GONE);
+            copy2.setVisibility(View.GONE);
+        }
+
+        mBuilder.setNegativeButton(R.string.dismiss, new DialogInterface.OnClickListener() {
+
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                dialogInterface.dismiss();
+            }
+        });
+
+        mBuilder.setView(mView);
+        AlertDialog dialog = mBuilder.create();
+        dialog.show();
+
+        try {
+            if (mRewardedVideoAd.isLoaded()) {
+                mRewardedVideoAd.show();
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+    }
+
+
     public static String getDeviceName() {
         String manufacturer = Build.MANUFACTURER;
         String model = Build.MODEL;
@@ -960,111 +1066,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 .show();
     }
 
-
-    @SuppressLint({"MissingPermission", "HardwareIds"})
-    public void showimei() {
-
-        TelephonyManager tm = (TelephonyManager) getSystemService(TELEPHONY_SERVICE);
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            imeiSIM1 = tm.getImei(0);
-            imeiSIM2 = tm.getImei(1);
-            DeviceName = getDeviceName();
-        } else {
-            try {
-                imeiSIM1 = tm.getDeviceId();
-                imeiSIM2 = tm.getDeviceId();
-                DeviceName = getDeviceName();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-
-        }
-
-        AlertDialog.Builder mBuilder = new AlertDialog.Builder(MainActivity.this);
-        View mView = MainActivity.this.getLayoutInflater().inflate(R.layout.device_info_layout, null);
-        imei1 = mView.findViewById(R.id.imei1);
-        imei1_tag = mView.findViewById(R.id.imei1_tag);
-        imei2 = mView.findViewById(R.id.imei2);
-        imei2_tag = mView.findViewById(R.id.imei2_tag);
-        copy1 = mView.findViewById(R.id.copy1);
-        copy2 = mView.findViewById(R.id.copy2);
-        device_name = mView.findViewById(R.id.device_name);
-
-        device_name.setText(DeviceName);
-
-        if (imeiSIM1 != null) {
-
-            imei1_tag.setVisibility(View.VISIBLE);
-            imei1.setVisibility(View.VISIBLE);
-            copy1.setVisibility(View.VISIBLE);
-
-            imei1_tag.setText(getResources().getString(R.string.imei_1));
-            imei1.setText(imeiSIM1);
-
-            copy1.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    ClipData clipData = ClipData.newPlainText("imei 1", imeiSIM1);
-                    clipboardManager.setPrimaryClip(clipData);
-
-                    Snackbar snackbar = Snackbar
-                            .make(findViewById(R.id.main_activity), getString(R.string.copied_to_clipboard), Snackbar.LENGTH_SHORT);
-                    snackbar.show();
-                }
-            });
-        } else {
-            imei1_tag.setVisibility(View.GONE);
-            imei1.setVisibility(View.GONE);
-            copy1.setVisibility(View.GONE);
-        }
-
-        if (imeiSIM2 != null) {
-
-            imei2_tag.setVisibility(View.VISIBLE);
-            imei2.setVisibility(View.VISIBLE);
-            copy2.setVisibility(View.VISIBLE);
-
-            imei2_tag.setText(getResources().getString(R.string.imei_2));
-            imei2.setText(imeiSIM2);
-
-            copy2.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    ClipData clipData = ClipData.newPlainText("imei 2", imeiSIM2);
-                    clipboardManager.setPrimaryClip(clipData);
-
-                    Snackbar snackbar = Snackbar
-                            .make(findViewById(R.id.main_activity), getString(R.string.copied_to_clipboard), Snackbar.LENGTH_SHORT);
-                    snackbar.show();
-                }
-            });
-        } else {
-            imei2_tag.setVisibility(View.GONE);
-            imei2.setVisibility(View.GONE);
-            copy2.setVisibility(View.GONE);
-        }
-
-        mBuilder.setNegativeButton(R.string.dismiss, new DialogInterface.OnClickListener() {
-
-            @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
-                dialogInterface.dismiss();
-            }
-        });
-
-        mBuilder.setView(mView);
-        AlertDialog dialog = mBuilder.create();
-        dialog.show();
-
-        try {
-            if (mRewardedVideoAd.isLoaded()) {
-                mRewardedVideoAd.show();
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-    }
 
     //<editor-fold desc="Ads">
     /*public void fetchLoadAds() {

@@ -667,7 +667,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private void checkNew() {
 
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
-        Boolean showTutorioals = sharedPreferences.getBoolean("ONBOARDINGIMEIINFO", true);
+        boolean showTutorioals = sharedPreferences.getBoolean("ONBOARDINGIMEIINFO", true);
 
         if (showTutorioals) {
 

@@ -109,7 +109,7 @@ public class PhoneImei_Tab extends Fragment {
 
 
 
-        ((PhoneImei_Phone_Adapter) phoneAdapter).setOnItemClickListener(new PhoneImei_Phone_Adapter.OnItemClickListener() {
+        ((PhoneImei_Phone_Adapter) phoneAdapter).setOnItemClickListener(new PhoneImei_Phone_Adapter.OnItemClickListeners() {
             @Override
             public void onItemClick(int position) {
 

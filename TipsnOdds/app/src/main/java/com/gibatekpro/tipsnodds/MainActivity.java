@@ -1751,7 +1751,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         try {
 
-            CropIntent = new Intent("com.android.camera.action.CROP");
+            CropIntent  = new Intent("com.android.camera.action.CROP");
             CropIntent.setDataAndType(uri, "image/*");
 
             CropIntent.putExtra("crop", true);

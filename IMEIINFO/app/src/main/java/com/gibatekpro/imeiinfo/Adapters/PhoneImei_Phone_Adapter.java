@@ -23,7 +23,7 @@ public class PhoneImei_Phone_Adapter extends RecyclerView.Adapter<PhoneImei_Phon
 
     List<PhoneImei_Phone_list_item>listItems;
     Context context;
-    private OnItemClickListener mlistener;
+    private OnItemClickListeners mlistener;
 
     @NonNull
     @Override
@@ -35,11 +35,11 @@ public class PhoneImei_Phone_Adapter extends RecyclerView.Adapter<PhoneImei_Phon
         return new PhonesViewHolder(view, mlistener);
     }
 
-    public interface OnItemClickListener {
+    public interface OnItemClickListeners {
         void onItemClick(int position);
     }
 
-    public void setOnItemClickListener (OnItemClickListener listener){
+    public void setOnItemClickListener (OnItemClickListeners listener){
         mlistener = listener;
     }
 
@@ -61,7 +61,7 @@ public class PhoneImei_Phone_Adapter extends RecyclerView.Adapter<PhoneImei_Phon
 
         public TextView phone;
 
-        PhonesViewHolder(@NonNull View itemView, final OnItemClickListener listener) {
+        PhonesViewHolder(@NonNull View itemView, final OnItemClickListeners listener) {
             super(itemView);
 
             phone = itemView.findViewById(R.id.phones);

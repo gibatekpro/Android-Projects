@@ -4,11 +4,13 @@ import android.app.AlertDialog;
 import android.app.DatePickerDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -102,15 +104,12 @@ public class frag_pending extends Fragment {
                              Bundle savedInstanceState) {
 
 
-
-
         return inflater.inflate(R.layout.frag_pending, container, false);
     }
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
 
 
         //Init Firebase
@@ -192,7 +191,7 @@ public class frag_pending extends Fragment {
         listItem.setLayoutManager(layoutManager);
 
         //[START Load Data From Main Activity]
-        ((AdminActivity)getActivity()).load_pending();
+        ((AdminActivity) getActivity()).load_pending();
         //[END Load Data From Main Activity]
 
 
@@ -232,7 +231,7 @@ public class frag_pending extends Fragment {
 
                 //Resfresh data
                 //[START Load Data From Main Activity]
-                ((AdminActivity)getActivity()).load_pending();
+                ((AdminActivity) getActivity()).load_pending();
                 //[END Load Data From Main Activity]
 
             }
@@ -256,7 +255,7 @@ public class frag_pending extends Fragment {
                     public void onSuccess(Void aVoid) {
 
                         //[START Load Data From Main Activity]
-                        ((AdminActivity)getActivity()).load_pending();
+                        ((AdminActivity) getActivity()).load_pending();
                         //[END Load Data From Main Activity]
 
                         Log.d(TAG, "Deleted!");
@@ -272,7 +271,7 @@ public class frag_pending extends Fragment {
     private void updateData(String progress_edit, String date_edit, String time_edit, String country_edit, String home_club_edit, String away_club_edit, String tip_edit, String odds_edit) {
 
         db.collection("Today").document(idUpdate)
-                .update("Progress", progress_edit,"Date", date_edit, "Time", time_edit, "Country", country_edit, "Home", home_club_edit, "Away", away_club_edit, "Tips", tip_edit, "Odds", odds_edit)
+                .update("Progress", progress_edit, "Date", date_edit, "Time", time_edit, "Country", country_edit, "Home", home_club_edit, "Away", away_club_edit, "Tips", tip_edit, "Odds", odds_edit)
                 .addOnSuccessListener(new OnSuccessListener<Void>() {
                     @Override
                     public void onSuccess(Void aVoid) {
@@ -294,7 +293,7 @@ public class frag_pending extends Fragment {
                         public void onEvent(@javax.annotation.Nullable DocumentSnapshot documentSnapshot, @javax.annotation.Nullable FirebaseFirestoreException e) {
 
                             //[START Load Data From Main Activity]
-                            ((AdminActivity)getActivity()).load_pending();
+                            ((AdminActivity) getActivity()).load_pending();
                             //[END Load Data From Main Activity]
 
 
@@ -364,7 +363,7 @@ public class frag_pending extends Fragment {
 
                 //Resfresh data
                 //[START Load Data From Main Activity]
-                ((AdminActivity)getActivity()).load_pending();
+                ((AdminActivity) getActivity()).load_pending();
                 //[END Load Data From Main Activity]
 
 
